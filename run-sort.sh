@@ -21,5 +21,6 @@ java -cp "lib/*" org.pitest.mutationtest.commandline.MutationCoverageReport \
   --classPath "lib/junit-*,out" \
   --targetClasses "sort.Sort" \
   --targetTests "sort.SortTest" \
-  --sourceDirs "src"
+  --sourceDirs "src" \
+  --mutators "STRONGER"
 
