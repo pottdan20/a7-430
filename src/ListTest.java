@@ -9,7 +9,7 @@ public class ListTest {
 
   // ONLY USE THIS FUNCTION TO CONSTRUCT LISTS FOR TESTING...
   public <E> List<E>makeList(E[] array){
-    return Arrays.asList(array);
+    return new ArrayList<E>(Arrays.asList(array));
   }
   
 
